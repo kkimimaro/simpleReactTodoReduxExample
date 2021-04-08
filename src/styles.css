@@ -1,0 +1,138 @@
+html {
+  background-color: #c9ad86;
+}
+
+body {
+  font-family: 'Righteous', sans-serif;
+}
+
+h1{
+  font-family: 'Righteous', sans-serif;
+  color: #50341e;
+  font-weight: normal;
+  line-height: 1;
+  text-align: left;
+  margin: 0;
+  display: inline-flex;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+img {
+  justify-content: center;
+  padding: 20px;
+}
+
+.formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 10px;
+  width: 65%;
+  max-width: 1500px;
+  position: center;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+button {
+  background-color: #c9ad86;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Righteous', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  margin: 5px;
+  width: 25.75%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #DEB887;
+}
+
+button:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type=text] {
+  background-color: #c9ad86;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Righteous', sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 25.75%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus, input[type=textInput]:focus {
+  background-color: #DEB887;
+  border: 2px solid #5fbae9;
+}
+
+.todo-app {
+  font-family: sans-serif;
+}
+
+/** add todo **/
+.add-todo {
+  margin-left: 0.5rem;
+}
+
+/** todo list **/
+.todo-list {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+}
+
+/** todo item **/
+.todo-item {
+  cursor: pointer;
+  line-height: 1.5;
+}
+.todo-item__text--completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+/** visibility filters **/
+.filter {
+  padding: 0.3rem 0;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+.filter--active {
+  border-bottom: 2px solid #deb887;
+}
